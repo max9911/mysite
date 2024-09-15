@@ -304,7 +304,7 @@ body {
 
 #imymf {
   max-width: 1200px;
-  align-items: center;
+  /* align-items: center; */
   display: flex;
   flex-direction: column;
 }
