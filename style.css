@@ -735,3 +735,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.imgicon {
+  max-width: 200px;
+}
