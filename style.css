@@ -273,7 +273,7 @@ body {
   border-top-right-radius: 35px;
   border-bottom-right-radius: 35px;
   border-bottom-left-radius: 35px;
-  max-width: 100%;
+  max-width: 45%;
   margin-top: 38px;
   margin-right: 38px;
   margin-bottom: 38px;
@@ -324,6 +324,17 @@ body {
   padding-right: 20px;
 }
 
+#gallery-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 #ib541 {
   gap: 100px;
   justify-content: space-between;
@@ -719,4 +730,8 @@ body {
     width: 116px;
     height: 24px;
   }
+}
+.galitemdiv {
+  flex-direction: column;
+  align-items: center;
 }
